@@ -2,8 +2,8 @@
 
 namespace Recca0120\Every8d\Tests;
 
-use Mockery as m;
 use Carbon\Carbon;
+use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Recca0120\Every8d\Every8dMessage;
 

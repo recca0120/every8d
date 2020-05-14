@@ -3,8 +3,8 @@
 namespace Recca0120\Every8d\Tests;
 
 use Mockery as m;
-use Recca0120\Every8d\Client;
 use PHPUnit\Framework\TestCase;
+use Recca0120\Every8d\Client;
 
 class ClientRealTest extends TestCase
 {

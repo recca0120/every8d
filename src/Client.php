@@ -5,9 +5,9 @@ namespace Recca0120\Every8d;
 use Carbon\Carbon;
 use DomainException;
 use Http\Client\HttpClient;
-use Http\Message\MessageFactory;
 use Http\Discovery\HttpClientDiscovery;
 use Http\Discovery\MessageFactoryDiscovery;
+use Http\Message\MessageFactory;
 
 class Client
 {

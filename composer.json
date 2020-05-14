@@ -1,7 +1,13 @@
 {
     "name": "recca0120/every8d",
     "description": "every8d sms api client",
-    "keywords": ["every8d", "sms", "taiwan", "laravel", "notification"],
+    "keywords": [
+        "every8d",
+        "sms",
+        "taiwan",
+        "laravel",
+        "notification"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -12,16 +18,16 @@
     "require": {
         "php": ">=5.5.9",
         "guzzlehttp/psr7": "^1.4",
-        "nesbot/carbon": "^1.22",
-        "php-http/client-implementation": "^1.0",
+        "nesbot/carbon": "^1.22|^2.0",
+        "php-http/client-implementation": "^1.0|^2.0",
         "php-http/discovery": "^1.2",
-        "php-http/httplug": "^1.1",
+        "php-http/httplug": "^1.1|^2.0",
         "php-http/message": "^1.5"
     },
     "require-dev": {
         "illuminate/support": "^5.1",
         "mockery/mockery": "~0.9.4|~1.0",
-        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/guzzle6-adapter": "^1.1|^2.0",
         "phpunit/phpunit": "~4.8|~5.4|~6.1|~7.0"
     },
     "autoload": {
@@ -35,8 +41,8 @@
         }
     },
     "suggest": {
-       "illuminate/notifications": "If you need Laravel Notification"
-   },
+        "illuminate/notifications": "If you need Laravel Notification"
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,

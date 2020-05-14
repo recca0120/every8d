@@ -2,10 +2,10 @@
 
 namespace Recca0120\Every8d\Tests;
 
-use Mockery as m;
 use Carbon\Carbon;
-use Recca0120\Every8d\Client;
+use Mockery as m;
 use PHPUnit\Framework\TestCase;
+use Recca0120\Every8d\Client;
 
 class ClientTest extends TestCase
 {

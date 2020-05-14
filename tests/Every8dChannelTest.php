@@ -2,12 +2,12 @@
 
 namespace Recca0120\Every8d\Tests;
 
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Notifications\Notification;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Recca0120\Every8d\Every8dChannel;
 use Recca0120\Every8d\Every8dMessage;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Notifications\Notification;
 
 class Every8dChannelTest extends TestCase
 {
